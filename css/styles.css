@@ -5,3 +5,36 @@ body {
   line-height: 24px;
   font-size: 16px;
 }
+.portfolio {
+  text-align: center;
+}
+
+.portfolio-header {
+}
+.portfolio-list {
+}
+.portfolio-item-desc {
+  padding: 16px 8px;
+  text-align: left;
+}
+.portfolio-item {
+  border-width: 0px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+  display: inline-block;
+  margin: 24px 12px;
+}
+.portfolio-item-img {
+  width: 360px;
+  height: 300px;
+}
+.portfolio-subtitle {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+}
+.portfolio-item-text {
+  color: #434455;
+  font-weight: 500;
+  font-size: 16px;
+}
