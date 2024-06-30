@@ -16,11 +16,11 @@ body {
 .portfolio-item-desc {
   padding: 16px 8px;
   text-align: left;
-}
-.portfolio-item {
   border-width: 0px, 1px, 1px, 1px;
   border-style: solid;
   border-color: #e7e9fc;
+}
+.portfolio-item {
   display: inline-block;
   margin: 24px 12px;
 }
