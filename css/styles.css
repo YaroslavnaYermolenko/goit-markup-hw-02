@@ -91,7 +91,7 @@ body {
 }
 .section1-button{
   padding: 16px 32px 16px 32px;
-   background: #4D5AE5;
+  background: #4D5AE5;
   color:#fff;
   font-family: Roboto;
   font-size: 16px;
@@ -146,38 +146,38 @@ body {
 .section2-photo {
 }
 .section3-header {
-  
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .section3-desc {
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
 
 }
 .section3-photo {
 }
 .section3-item-header {
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .footer-desc{
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: F4F4FD;
 }
-footer{
+.footer{
   background-color:#2E2F42;
   padding: 100px 0 100px 156px;
 }
