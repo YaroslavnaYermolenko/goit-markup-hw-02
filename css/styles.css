@@ -1,15 +1,50 @@
 body {
-  font-family: Roboto;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  /*color: #2e2f42;*/
+  color: #434455;
   background-color: #ffffff;
   line-height: 24px;
   font-size: 16px;
+}
+.logo-header{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5 
+}
+.logo-hader-part{
+  color: #2e2f42;
+}
+.logo-footer-part{
+  color: #F4F4FD;
+}
+.link1{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.link1:hover, .link1:active, .contact-mail:hover, .contact-mail:active,  .contact-phone:hover, .contact-phone:active{
+  color: #404bbf;
+}
+.contacts-us {
+  font-style: normal;
+}
+.contact-mail, .contact-phone{
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .portfolio {
   text-align: center;
 }
 
 .portfolio-header {
+  font-size: 36px;
+  line-height: 1.11;
 }
 .portfolio-list {
 }
@@ -39,4 +74,110 @@ body {
   color: #434455;
   font-weight: 500;
   font-size: 16px;
+}
+.section1{
+  background-color: #2e2f42;
+  text-align: center;
+}
+.section1-header{
+  color:#fff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-top:188px;
+}
+.section1-button{
+  padding: 16px 32px 16px 32px;
+   background: #4D5AE5;
+  color:#fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 188px;
+}
+.section1-button:hover, .section1-button:active{
+  color: #404BBF;
+}
+.section2 {
+  text-align: center;
+}
+.section2-header {
+  font-weight: 500;
+  font-size: 20px; 
+  line-height: 1.2; 
+  letter-spacing: 0.02em; 
+  color: #2e2f42;
+}
+.section2-list {
+}
+.section2-item {
+}
+.section2-item-header {
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px; 
+  line-height: 1.2; 
+  letter-spacing: 0.02em; 
+  color: #2e2f42;
+}
+.section2-item-desc {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section3 {
+  background-color: #F4F4FD;
+
+}
+.section3-list {
+ background-color: #FFFFFF;
+}
+.section3-item {
+}
+.section2-photo {
+}
+.section3-header {
+  
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.section3-desc {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.section3-photo {
+}
+.section3-item-header {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.footer-desc{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+footer{
+  background-color:#2E2F42;
+  padding: 100px 0 100px 156px;
 }
