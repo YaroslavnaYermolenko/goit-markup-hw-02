@@ -79,25 +79,24 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section1{
+.order{
   background-color: #2e2f42;
   text-align: center;
 }
-.section1-header{
+.order-header{
   color:#fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top:188px;
+  /*padding-top:188px;*/
 }
-.section1-button{
+.order-button{
   /*padding: 16px 32px 16px 32px;*/
   font-family: "Roboto", sans-serif;
   background: #4D5AE5;
   color:#fff;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -105,7 +104,7 @@ body {
   text-align: center;
   margin-bottom: 188px;
 }
-.section1-button:hover, .section1-button:focus{
+.order-button:hover, .order-button:focus{
   background-color: #404BBF;
   cursor: pointer;
 }
