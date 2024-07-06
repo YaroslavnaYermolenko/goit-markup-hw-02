@@ -21,21 +21,20 @@ body {
 .logo-footer-part{
   color: #F4F4FD;
 }
-.link1{
+.link{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link1:hover, .link1:focus, .contact-mail:hover, .contact-mail:focus,  .contact-phone:hover, .contact-phone:focus{
+.link:hover, .link:focus, /*.contact-mail:hover, .contact-mail:focus,  .contact-phone:hover, .contact-phone:focus*/{
   color: #404bbf;
 }
 .contacts-us {
   font-style: normal;
 }
-.contact-mail, .contact-phone{
-  letter-spacing: 0.02em;
+.contacts-us .link{
   color: #434455;
 }
 .portfolio {
@@ -45,6 +44,9 @@ body {
 .portfolio-header {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize ;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -70,6 +72,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
 }
 .portfolio-item-text {
   color: #434455;
@@ -139,6 +142,14 @@ body {
 }
 .team-item {
  background-color: #FFFFFF;
+}
+.team-item-header{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+
 }
 .team-header {
   font-size: 36px;
