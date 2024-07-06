@@ -28,7 +28,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link1:hover, .link1:active, .contact-mail:hover, .contact-mail:active,  .contact-phone:hover, .contact-phone:active{
+.link1:hover, .link1:focus, .contact-mail:hover, .contact-mail:focus,  .contact-phone:hover, .contact-phone:focus{
   color: #404bbf;
 }
 .contacts-us {
@@ -49,7 +49,7 @@ body {
 .portfolio-list {
 }
 .portfolio-item-desc {
-  padding: 16px 8px;
+  /*padding: 16px 8px;*/
   text-align: left;
   border-width: 0px 1px 1px 1px;
   border-style: solid;
@@ -57,13 +57,12 @@ body {
   margin: 0px;
 }
 .portfolio-item {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 24px 12px;
-  padding: 0px;
+  /*padding: 0px;*/
 }
 .portfolio-item-img {
-  width: 360px;
-  height: 300px;
+
 }
 .portfolio-subtitle {
   color: #2e2f42;
@@ -81,16 +80,16 @@ body {
 }
 .section1-header{
   color:#fff;
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   padding-top:188px;
 }
 .section1-button{
-  padding: 16px 32px 16px 32px;
+  /*padding: 16px 32px 16px 32px;*/
+  font-family: "Roboto", sans-serif;
   background: #4D5AE5;
   color:#fff;
   font-family: Roboto;
@@ -101,24 +100,22 @@ body {
   text-align: center;
   margin-bottom: 188px;
 }
-.section1-button:hover, .section1-button:active{
-  color: #404BBF;
+.section1-button:hover, .section1-button:focus{
+  background-color: #404BBF;
+  cursor: pointer;
 }
-.section2 {
+.concept {
   text-align: center;
 }
-.section2-header {
+.concept-header {
   font-weight: 500;
   font-size: 20px; 
   line-height: 1.2; 
   letter-spacing: 0.02em; 
   color: #2e2f42;
 }
-.section2-list {
-}
-.section2-item {
-}
-.section2-item-header {
+
+.concept-item-header {
   text-align: left;
   font-weight: 500;
   font-size: 20px; 
@@ -126,7 +123,7 @@ body {
   letter-spacing: 0.02em; 
   color: #2e2f42;
 }
-.section2-item-desc {
+.concept-item-desc {
   text-align: left;
   font-size: 16px;
   line-height: 1.5;
@@ -134,37 +131,25 @@ body {
   color: #434455;
 }
 
-.section3 {
+.team {
   background-color: #F4F4FD;
 
 }
-.section3-list {
+.team-item {
  background-color: #FFFFFF;
 }
-.section3-item {
-}
-.section2-photo {
-}
-.section3-header {
+.team-header {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
-.section3-desc {
+.team-desc {
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: center;
-
-}
-.section3-photo {
-}
-.section3-item-header {
-  font-size: 20px;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
@@ -179,5 +164,5 @@ body {
 }
 .footer{
   background-color:#2E2F42;
-  padding: 100px 0 100px 156px;
+  /*padding: 100px 0 100px 156px;*/
 }
